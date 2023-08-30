@@ -13,9 +13,9 @@ module "bucket" {
 }
 
 output "project_vpc" {
-  value = module.vpc.vpc_id
+  value = module.hga-lamp-vpc.vpc_id
 }
 
 output "project_bucket" {
-  value = module.bucket.bucket_id
+  value = module.hga-lamp-s3.bucket_id
 }
