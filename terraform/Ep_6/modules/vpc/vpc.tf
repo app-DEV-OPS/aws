@@ -2,6 +2,6 @@
 # Author: Somnath Das
 
 # Create a VPC
-resource "aws_vpc" "vpc" {
+resource "aws_vpc" "hga-lmap-vpc" {
   cidr_block = var.cidr_block
 }
