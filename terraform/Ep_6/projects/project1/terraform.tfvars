@@ -2,8 +2,8 @@
 
 project_cidr = "10.0.0.0/16"
 
-project_bucket_name = "daslearning-terraform-aws1"
+project_bucket_name = "hga-lamp-s3"
 s3_tags = {
-    owner = "Somnath"
-    dept  = "daslearning"
+    owner = "hga"
+    dept  = "hv_pocs"
 }
