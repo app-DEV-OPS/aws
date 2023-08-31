@@ -1,12 +1,12 @@
 # Create resources in AWS using Modules
 # Author: Somnath Das
 
-module "vpc" {
+module "hga-lamp-vpc" {
   source = "../../modules/vpc"
   cidr_block = var.project_cidr
 }
 
-module "bucket" {
+module "hga-lamp-s3" {
   source = "../../modules/s3"
   bucket_name = var.project_bucket_name
   tags = var.s3_tags
